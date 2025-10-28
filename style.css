@@ -16,14 +16,61 @@
  border-bottom: gray;
  border-bottom-style: groove;
  border-right-style: ridge;
- 
 float:left;
-
-;
 }
 .am{
     margin-left: 10%;
 }
 .links:hover{
     background-color: red;
+}
+.image {
+    width: 250px;
+    padding-left: 50px;
+}
+.image:hover {
+    opacity: 0.7;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.link {
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    background-image: none;
+    background: transparent;
+}
+.link:hover {
+    color: rgb(214, 40, 40);
+    transition: 0.5s;
+}
+.linkforitem {
+    margin-left: 20px;
+    width: 200px;
+    margin-top: 20px;
+    height: 100px;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    background-image: radial-gradient(circle, rgba(188, 201, 227, 0.349),  rgb(255, 250, 228))
+} 
+
+.priceforitem {
+    margin-left: 40px;
+    font-size: 20px;
+    width: 280px;
+    text-align: center;
+}
+
+.seconditem {
+    margin-top: 50px;
+    float: left;
+    width: 300px;
+    margin-left: 50px;
+    height: 550px;
+}
+
+.price {
+   background-color: rgba(200, 215, 255, 0.442);
 }
