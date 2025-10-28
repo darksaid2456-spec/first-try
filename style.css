@@ -1,0 +1,29 @@
+.nav {
+    background-color: aquamarine;
+    width:100%;
+    box-shadow: 5px 5px gray;
+    font-size: 20px;
+    padding: 5px;
+    height: 35px;
+    float: left
+    ;
+}
+.links{
+ display: block;
+ text-decoration: none;
+ padding: 5px;
+ background-color: yellow;
+ border-bottom: gray;
+ border-bottom-style: groove;
+ border-right-style: ridge;
+ 
+float:left;
+
+;
+}
+.am{
+    margin-left: 10%;
+}
+.links:hover{
+    background-color: red;
+}
