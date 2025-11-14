@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.nav {
+  margin: 30px;
+}
+.btn .name {
+  padding: 15px;
+  border-bottom: 1px solid white;
+}
+.btn {
+  color: black;
+  background: grey;
+  width: 200px;
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+.btn:hover > .under-nav {
+  display: block;
+}
+.under-nav {
+  display: none;
+}
+.under-nav > .btn {
+  background-color: lightgray;
+}
